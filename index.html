@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App clima</title>
+    <style>
+        body {
+            width: 95 vw;
+            height: 95 vh;
+            display: grid;
+            place-items: center;
+            background-color: aquamarine;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+
+        }
+        button {
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: blue;
+            text-align: center;
+        }
+        input{
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>App clima</h1>
+        <h2 class="city"> Ciudad: <Span></Span></h2>
+        <h2 class="temp"><span></span>°C</h2>
+
+        <form id="formulario clima">
+            <input type="text" id="ciudad" placeholder="Nombre de la ciudad" >
+            <button type="submit"> Buscar ciudad</button>
+        </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
